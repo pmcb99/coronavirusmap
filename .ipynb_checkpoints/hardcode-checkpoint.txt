@@ -1,0 +1,49 @@
+var svgMapDataPopulation = {
+
+    data: {
+        totalcases: {
+        name: 'Total Cases',
+        thousandSeparator: ','
+      },
+    
+      newcases: {
+        name: 'New Cases',
+        thousandSeparator: ','
+      },
+
+      totaldeaths: {
+        name: 'Total Deaths',
+        thousandSeparator: ','
+      },
+
+      newdeaths: {
+        name: 'New Deaths',
+        thousandSeparator: ','
+      },
+
+      activecases: {
+        name: 'Active Cases',
+        thousandSeparator: ','
+      },
+
+      totalrecovered: {
+        name: 'Total Recovered',
+        thousandSeparator: ','
+      },
+
+      criticalcases: {
+        name: 'Critical Cases',
+        thousandSeparator: ','
+      },
+
+      permil: {
+        name: 'Cases per Million',
+        format: '{0}',
+        thousandSeparator: ',',
+        thresholdMax: 280,
+        thresholdMin: 20
+      }
+    },
+    applyData: 'permil',
+
+    values: {

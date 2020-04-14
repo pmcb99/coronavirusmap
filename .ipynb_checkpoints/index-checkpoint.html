@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <link rel="stylesheet" type="text/css" href="frontpage.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui">
+  <meta name ="description" content="A website that visualises Coronavirus data on a map of the world, and updates each minute">
+  <link href="demo.css" rel="stylesheet">
+  <link href="svgMap.css" rel="stylesheet">
+  <script src="svgMap.js"></script>
+
+</head>
+
+<body>
+
+  <div class="demo-wrapper">
+
+    <!-- Demo population -->
+
+    <div class="demo-container">
+<h1><center>Interactive Coronavirus Map Live (2020-03-09 22:25:20<center></h1>
+      <div id="svgMapPopulation"></div>
+<script src="population.js?version=z2000000106Z"></script>      <script>
+        new svgMap({
+          targetElementID: 'svgMapPopulation',
+          data: svgMapDataPopulation,
+          flagType: 'image'
+        });
+      </script>
+    </div>
+
+
+</head>
+<body>
+
+
+
+
+</div>
+
+<script type="text/javascript"> var infolinks_pid = 3240665; var infolinks_wsid = 0; </script> <script type="text/javascript" src="//resources.infolinks.com/js/infolinks_main.js"></script>
+
+</body>
+
+
+</html>
