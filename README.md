@@ -1,7 +1,7 @@
 CORONAVIRUS SPREAD MAP - I tried to create this ASAP in the first few days of the pandemic so it has a few bugs. I abandoned the project after realising
 I didn't have the resources for SEO optimization.
 
-INSTRUCTIONS:
+## INSTRUCTIONS
 
 1. Make sure Node.js is installed on your system.
 
